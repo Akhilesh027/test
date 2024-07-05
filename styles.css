@@ -140,6 +140,7 @@ main {
   width: 300px;
   background-color: #dbdbd3;
   border-right: 1px solid #ccc;
+  margin-top: 5px;
 }
 
 .filters h3 {
@@ -156,7 +157,7 @@ main {
 }
 
 .filters ul li {
-  margin: 5px 0;
+  margin: 3px 0;
   display: flex;
   align-items: center;
   font-family: quicksand;
@@ -171,12 +172,11 @@ main {
 
 .color {
   width: 100%;
-  height: 7vh;
+  height: 5vh;
   padding-left: 20px;
   padding-right: 20px;
   border: 2px solid #ebeae6;
   box-sizing: border-box;
-  margin-top: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -239,7 +239,7 @@ input[type="checkbox"] {
 
 .product-image{
   width: 350px;
-  height: 262px;
+  height: 220px;
   transition: transform 0.3s ease;
 }
 
@@ -261,11 +261,13 @@ input[type="checkbox"] {
 }
 
 .size-grid {
+  position: relative;
+  left: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  max-width: 200px;
-  margin: 10px auto;
+  max-width: 100px;
+  margin: 2px 20px;
 }
 
 .size-box {
